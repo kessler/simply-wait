@@ -1,6 +1,6 @@
 {
   "name": "simply-wait",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simply wait for some async things to happen",
   "main": "index.js",
   "scripts": {
