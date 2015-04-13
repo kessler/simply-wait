@@ -24,6 +24,7 @@
   "homepage": "https://github.com/kessler/simply-wait",
   "license": "MIT",
   "devDependencies": {
+    "mocha": "^2.2.4",
     "should": "^5.2.0"
   }
 }
