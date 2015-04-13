@@ -22,5 +22,8 @@
     "url": "https://github.com/kessler/simply-wait"
   },
   "homepage": "https://github.com/kessler/simply-wait",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^5.2.0"
+  }
 }
