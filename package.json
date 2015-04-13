@@ -1,17 +1,19 @@
 {
   "name": "simply-wait",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",  
+  "description": "Simply wait for some async things to happen",
+  "main": "index.js",
   "scripts": {
     "test": "mocha -R spec"
   },
+  "keywords": [
+    "eventemitter",
+    "event",
+    "event-emitter",
+    "async"
+  ],
   "dependencies": {},
-    
-   
-    "author": "Yaniv Kessler", 
-  
-  
+  "author": "Yaniv Kessler",
   "bugs": {
     "url": "https://github.com/kessler/simply-wait/issues"
   },
@@ -20,6 +22,5 @@
     "url": "https://github.com/kessler/simply-wait"
   },
   "homepage": "https://github.com/kessler/simply-wait",
-    
   "license": "MIT"
 }
