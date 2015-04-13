@@ -31,3 +31,5 @@ e2.emit('slay dragon')
 
 // console prints "the deed is done"
 ```
+
+The final callback will receive the arguments from the last async operation. If you need the results from all the operations then its not "simply waiting" anymore so go ahead and use one of the many super elaborate async modules out there... 
