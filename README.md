@@ -33,3 +33,19 @@ e2.emit('slay dragon')
 ```
 
 The final callback will receive the arguments from the last async operation. If you need the results from all the operations then its not "simply waiting" anymore so go ahead and use one of the many super elaborate async modules out there... 
+
+If you want to signal the gate:
+```js
+var simplyWait = require('simply-wait')
+
+var wait = simplyWait(function (err) {
+    console.log('the deed is done!')
+})
+
+var notify = wait()
+
+notify()
+
+// console prints "the deed is done"
+
+```
