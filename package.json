@@ -4,7 +4,7 @@
   "description": "Simply wait for some async things to happen",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "npx mocha"
   },
   "keywords": [
     "eventemitter",
@@ -12,7 +12,6 @@
     "event-emitter",
     "async"
   ],
-  "dependencies": {},
   "author": "Yaniv Kessler",
   "bugs": {
     "url": "https://github.com/kessler/simply-wait/issues"
@@ -24,7 +23,7 @@
   "homepage": "https://github.com/kessler/simply-wait",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^2.2.4",
-    "should": "^5.2.0"
+    "mocha": "^10.0.0",
+    "should": "^13.2.3"
   }
 }

@@ -1,4 +1,4 @@
-# simply-wait [![Build Status](https://secure.travis-ci.org/kessler/simply-wait.png?branch=master)](http://travis-ci.org/kessler/simply-wait)
+# simply-wait
 
 Simply wait for some async things to happen. 
 
